@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import Commerce from '@chec/commerce.js';
 
-const commerce = new Commerce(process.env.REACT_APP_CHEC_PUBLIC_KEY, true);
+const commerce = new Commerce(process.env.NEXT_PUBLIC_CHEC_PUBLIC_KEY, true);
 export default function Home() {
     const [products, setProducts] = useState([]);
 
